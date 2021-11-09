@@ -18,8 +18,9 @@ public class Order {
 
     private String recipient;
     public void setRecipient(String who) { this.recipient = who; }
-
-    public List<Drink> getDrinks() { return contents; }    
+    
+    public List<Drink> getDrinks() { return contents; } 
+    
 
     @Override
     public String toString() {
